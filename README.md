@@ -6,6 +6,7 @@
 - Make sure that you have pytest configured properly to run the tests
   - It is possible to rename sapmle.env to .env and change the values as needed
   - It is possible to rename sample.vscode folder to .vscode to apply the settings in the container
+  - It is possible verride the .vscode and .devcontainer settings.json with the content of sample.vscode settings.json. This should help you to set up the vs code testing extension properly.
 ## Overview
 - This is a sample project that was developed in vs code on a devcontainer setup
 - The project contains the necessary initial dev ops as code (Terraform) to be deployed on GCP/AWS more specifically on a kubernetes
